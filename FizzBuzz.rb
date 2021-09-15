@@ -2,19 +2,19 @@
 
 x = gets.to_i
 
-for t in (1..x)
+(1..x).each {|t|
 
-  if t%15 == 0
+  if t % 15 == 0
     puts "fizzbuzz"
-  elsif t%5 == 0
+  elsif t % 5 == 0
     puts "buzz"
-  elsif t%3 == 0
+  elsif t % 3 == 0
     puts "fizz"
   else 
     puts t 
   end  
 
-end  
+}
 
 
 
