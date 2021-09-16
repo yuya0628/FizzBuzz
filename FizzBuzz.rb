@@ -2,7 +2,7 @@
 
 x = gets.to_i
 
-(1..x).each {|t|
+(1..x).each do |t|
 
   if t % 15 == 0
     puts "fizzbuzz"
@@ -14,7 +14,7 @@ x = gets.to_i
     puts t 
   end  
 
-}
+end
 
 
 
